@@ -6,14 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#90EE90">
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Wiztyta u weterynarza" />
+        android:text="Wiztyta u weterynarza"
+        android:background="#2E8B57"
+        android:padding="10dp"
+        android:textSize="20dp"/>
 
     <EditText
         android:id="@+id/editTextText"
@@ -31,7 +35,8 @@
 
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"/>
+        <!--android:entries="@array/zwierzeta"-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -70,7 +75,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="OK" />
 </LinearLayout>
