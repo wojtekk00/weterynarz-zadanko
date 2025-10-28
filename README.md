@@ -2,7 +2,7 @@ JAK ZROBIC LISTVIEW
 
 w mainactivititi
 
-private ListView listView;
+private ListView listView; 
 private ArrayList<typ> jakasLista;
 private ArrayAdapter<typ> arrayAdapter;
 
